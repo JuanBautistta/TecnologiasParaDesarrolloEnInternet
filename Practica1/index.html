@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animals</title>
+    <link rel="stylesheet" href="CSS/axolotl.css">
+    <script src="JS/file1.js"></script>
+</head>
+<body>
+<header>
+    <h1>Animals</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="HTML/axolotl.html">Axolotl</a></li>
+        <li><a href="HTML/cat.html">Cat</a></li>
+        <li><a href="HTML/dog.html">Dog</a></li>
+        <li><a href="HTML/turtle.html">Turtle</a> </li>
+    </ul>
+</nav>
+<main>
+    <article>
+        <header>
+            <h2 id="Definition">Definition</h2>
+        </header>
+        <section>
+            <p>
+                Animals are multicellular, eukaryotic organisms in the biological kingdom Animalia. With few exceptions,
+                animals consume organic material, breathe oxygen, are able to move, can reproduce sexually, and go through
+                an ontogenetic stage in which their body consists of a hollow sphere of cells, the blastula, during embryonic development.
+            </p>
+        </section>
+    </article>
+    <article>
+        <header>
+            <h2>Form</h2>
+        </header>
+        <section>
+            <form name="form1" id = "form1">
+                <label>Date:  </label> <label>
+                <input type="date">
+            </label> <br>
+                <label>Email: </label> <label>
+                <input type="email" name="email" placeholder="email@gmail.com">
+            </label> <br>
+                <label>Tel:   </label> <input type="tel" pattern="^(\(\+?\d{2,3}\)[\*|\s|\-|\.]?(([\d][\*|\s|\-|\.]?){6})(([\d][\s|\-|\.]?){2})?|(\+?[\d][\s|\-|\.]?){8}(([\d][\s|\-|\.]?){2}(([\d][\s|\-|\.]?){2})?)?)$" title="only numbers"> <br>
+                <input type="submit" style="background: coral"> <input type="reset" style="background: coral">
+            </form>
+            <form name="form2" id="form2">
+                <p>Choose your language</p>
+                <label>
+                    <select name="language" >
+                        <option value="es" selected>Spanish</option>
+                        <option value="en">English</option>
+                        <option value="">other</option>
+                    </select>
+                </label>
+            </form>
+            <form name="form3" id="form3">
+                <p>Choose your favourite programming language</p>
+                <input type="radio" name="language" id="java" value="Java">
+                <label for="java">Java</label>
+                <input type="radio" name="language" id="javascript" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+                <input type="radio" name="language" id="python" value="Python">
+                <label for="python">Python</label>
+            </form>
+        </section>
+    </article>
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
