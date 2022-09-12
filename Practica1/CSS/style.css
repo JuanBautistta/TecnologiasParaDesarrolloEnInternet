@@ -1,0 +1,46 @@
+body{
+    font-family: "Comic Sans MS", serif;
+    background-color: #5c5cc5;
+}
+
+h1{
+    color: #000000;
+    background-color: #f8a04a;
+    text-align: center;
+}
+
+h2{
+    color: aquamarine;
+}
+
+h3{
+    color: #cbff50;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+img {
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.cat {
+    width: 300px;
+}
+
+table {
+    background-color: #6e9b7f;
+    align-content: center;
+    align-items: center;
+    alignment: center;
+}
+
+th{
+    background-color: orange;
+}
+td, th{
+    text-align: center;
+}
